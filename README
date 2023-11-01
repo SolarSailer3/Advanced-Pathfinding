@@ -1,0 +1,40 @@
+## Synopsis
+Assignment: Data Structures and Algorithms COMP5008: Virtual Keyboard
+
+## Contents
+README – readme file for DSA Assignment
+GraphClasses.py - classes for the Nodes and Graph Data Structure aggregating from the Linked List Data Structure
+LinkedListClasses.py - classes for Nodes and Linked List Data Structure, used to store a list of vertices in the graph and edges in a vertex
+StackQueueClasses.py - classes for the Stack and Queue Data Structure aggregating from the Linked List Data Structure
+UnitTestGraph.py - Test Harness for Graph class (format based on UnitTestLinkedList which was a provided Unit Test from Prac04)
+UnitTestLinkedList.py - Test Harness for Linked List class (reused and extended the provided Unit Test from Prac04)
+keyMeUp.py - User Interface to interact with the Virtual Keyboard simulation
+edged.al - ABCD layout keyboard input file (Edged Keyboard)
+wrap.al - Same as above but has the ability to wrap around edges
+switch.al - Nintendo Switch QWERTY layout keyboard input file (Wrap around and includes the ability to select Upper Case letters)
+numSymbolsList.csv - Contains numbers and symbols to read into a LinkedList used for input classification
+string1.csv - A short string to use in silent mode for switch keyboard
+string2.csv - A medium string to use in silent mode for switch keyboard
+string3.csv - A long string to use in silent mode for switch keyboard
+bill.csv - Output from switch keyboard using string1.csv
+emoticon.csv - Output from switch keyboard using string2.csv
+crawl.csv - Output from switch keyboard using string3.csv
+
+
+
+## Dependencies
+os
+sys
+
+## Version information
+<08/10/2022> - Initial version of the assignment. Reusing and reworking class script from previous practicals: Graph and Linked List
+               Added methods in DSAGraph: deleteVertex, deleteEdge and DSAGraphNode: removeEdge
+               building main script keyMeUp.py: main menu
+               
+<09/10/2022> - building BreadthFirstSearch algorithm for determining shortest path
+               
+<10/10/2022> - coding DepthFirstSearch algorithm for determining a path of any given length
+               implemented options to save keyboard layout and pathways (and function to clean pathway)
+               implemented options to clean and convert input string 
+
+<11/10/2022> - Implemented a command line argument to be accepted to use the script in silent mode

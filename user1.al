@@ -1,0 +1,13 @@
+C X V SYMBOLS
+X C
+V C
+SYMBOLS C ABC
+ABC SYMBOLS ;
+; ABC > = :
+> ;
+= ;
+: ;
+A
+B
+D
+E

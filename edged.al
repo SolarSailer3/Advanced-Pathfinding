@@ -1,0 +1,37 @@
+A B G
+B A C H
+C B D I
+D C E J
+E D F K
+F E L
+G A H M
+H B G I N
+I C H J O
+J D I K P
+K E J L Q
+L F K R
+M G N S
+N H M O T
+O I N P U
+P J O Q V
+Q K P R W
+R L Q X
+S M T Y
+T N S U Z
+U O T V 1
+V P U W 2
+W Q V X 3
+X R W 4
+Y S Z 5
+Z T Y 1 6
+1 U Z 2 7
+2 V 1 3 8
+3 W 2 4 9
+4 X 3 0
+5 Y 6 SPACE
+6 Z 5 7 SPACE
+7 1 6 8
+8 2 7 9
+9 3 8 0
+0 4 9
+SPACE 5 6
